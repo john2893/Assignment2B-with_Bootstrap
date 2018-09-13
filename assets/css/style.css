@@ -1,0 +1,103 @@
+/* STYLE.CSS ******************** */
+body {
+    background-image:url('https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png');  
+    height:100%;
+    margin:0;
+}
+/* ***************** BOOTSTRAP *************************** */
+.navbarBg {
+    background-color: #ffffff;
+}
+.navbar {
+    margin-bottom: 30px;
+}
+nav h1 {
+    background-color: #4aaaa5;
+    height:100px;
+    width:300px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 95px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.box1 {
+    background-color: white;
+
+}
+.box1 h1 {
+    font-weight: bold;
+    color:#4aaaa5;
+    padding: 6px;
+
+}
+.navbar-nav {
+    font-size: 20px;
+}
+form {
+    padding: 7px;
+}
+.col-md-2 {
+    margin:10px;
+}
+
+
+/* ******************************************************* */
+/* ****************** MEDIA QUERIES ************************************************** */
+@media (max-width: 768px) {
+
+    .navbarBg {
+        background-color: #4aaaa5;
+    }
+    nav h1 {
+        background-color:#4aaaa5;
+        height:100px;
+        width:300px;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+        line-height: 95px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 37px;
+        margin-left: 0 auto;
+    }
+}
+
+/* *********************************************************************************** */
+
+
+.imageContainer {  
+    display:inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.imageContainer .text-block {
+    position: absolute;
+    background-color: #4aaaa5;
+    color:white;
+    bottom:20px;
+    left:0;
+    right:0;
+    text-align:center;
+    margin:1px;
+    height:32px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 8px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+#catImage {
+    margin:10px;
+}
+.imgSize {
+  
+    max-width: 100%;
+    height: auto;
+   
+
+}
